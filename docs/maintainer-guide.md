@@ -8,11 +8,12 @@ A practical playbook for running a healthy open-source project, from triage to r
 
 1. [Your Role as Maintainer](#your-role-as-maintainer)
 2. [Triage Workflow](#triage-workflow)
-3. [Scoping Issues for Drips Wave](#scoping-issues-for-drips-wave)
-4. [Reviewing Pull Requests](#reviewing-pull-requests)
-5. [Communication Templates](#communication-templates)
-6. [Burnout Prevention](#burnout-prevention)
-7. [Metrics That Matter](#metrics-that-matter)
+3. [Label Reference](#label-reference)
+4. [Scoping Issues for Drips Wave](#scoping-issues-for-drips-wave)
+5. [Reviewing Pull Requests](#reviewing-pull-requests)
+6. [Communication Templates](#communication-templates)
+7. [Burnout Prevention](#burnout-prevention)
+8. [Metrics That Matter](#metrics-that-matter)
 
 ---
 
@@ -47,6 +48,23 @@ You do **not** have to write every line of code.
 ### Triage SLA
 
 Aim to respond to every new issue within **72 hours**. Even “Thanks, I’ll look at this next week” prevents contributors from feeling ignored.
+
+---
+
+## Label Reference
+
+Recommended labels and what they mean on this project. Apply one type label plus one status or effort label per issue so triage and Drips Wave scoping stay consistent.
+
+| Label | Meaning | Example usage |
+|---|---|---|
+| `good first issue` | Small, self-contained task suitable for a new contributor. | A one-line doc fix or a single missing test. |
+| `documentation` | Work that adds or clarifies docs rather than code. | Expanding a guide section. |
+| `help wanted` | The maintainer wants it but lacks time to do it. | A nice-to-have feature with a clear scope. |
+| `bug` | Something broken that contradicts expected behaviour. | A crashing command or a wrong output. |
+| `enhancement` | A new or improved feature request. | A new CLI flag. |
+| `drips-wave` | Scoped for a Drips Wave Program with points assigned. | A 100/150/200-point issue in a wave. |
+| `won't fix` | Out of scope or conflicts with direction; closed politely. | A request the project intentionally does not support. |
+| `duplicate` | Same problem as another issue; link the canonical one. | A re-report of an open issue. |
 
 ---
 
